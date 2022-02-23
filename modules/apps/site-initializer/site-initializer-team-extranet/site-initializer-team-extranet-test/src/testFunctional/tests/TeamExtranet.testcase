@@ -783,9 +783,12 @@ definition {
 		}
 
 		task ("Go to Blog and Open a Blog Entry") {
-			Navigator.gotoSpecificURLPage(
+//			Navigator.gotoSpecificURLPage(
+//				pageName = "Blog",
+//				url = "http://localhost:8080/web/test-site-team-extranet");
+			ContentPagesNavigator.openViewContentPage(
 				pageName = "Blog",
-				url = "http://localhost:8080/web/test-site-team-extranet");
+				siteName = "Test Site Team Extranet");
 
 			Masterclass.goToLink(
 				key_buttonName = "Read More",
@@ -808,9 +811,12 @@ definition {
 		}
 
 		task ("Go to Blog and Open a Blog Entry") {
-			Navigator.gotoSpecificURLPage(
+//			Navigator.gotoSpecificURLPage(
+//				pageName = "Team",
+//				url = "http://localhost:8080/web/test-site-team-extranet");
+			ContentPagesNavigator.openViewContentPage(
 				pageName = "Team",
-				url = "http://localhost:8080/web/test-site-team-extranet");
+				siteName = "Test Site Team Extranet");
 
 			Click(
 				key_imageName = "member",
@@ -833,9 +839,12 @@ definition {
 		}
 
 		task ("Go to Blog and Open a Blog Entry") {
-			Navigator.gotoSpecificURLPage(
+//			Navigator.gotoSpecificURLPage(
+//				pageName = "Careers",
+//				url = "http://localhost:8080/web/test-site-team-extranet");
+			Navigator.gotoSitePage(
 				pageName = "Careers",
-				url = "http://localhost:8080/web/test-site-team-extranet");
+				siteName = "Test Site Team Extranet");
 
 			Click(
 				key_entryTitle = "Growth Product Manager",
