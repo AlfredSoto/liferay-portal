@@ -19,8 +19,8 @@ definition {
 				panel = "Control Panel",
 				portlet = "Sites");
 
-			Site.addSiteTemplateCP(
-				siteName = "Test Site Team Extranet",
+			TeamExtranet.addSiteTemplateCP(
+				siteName = "Test Site Team Extranet Name",
 				siteTemplateName = "Team Extranet");
 		}
 	}
@@ -32,7 +32,7 @@ definition {
 			PortalInstances.tearDownCP();
 		}
 		else {
-			JSONGroup.deleteGroupByName(groupName = "Test Site Team Extranet");
+			JSONGroup.deleteGroupByName(groupName = "Test Site Team Extranet Name");
 		}
 	}
 
@@ -42,7 +42,7 @@ definition {
 		property portal.acceptance = "true";
 
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Assert the Team Extranet Welcome Page is present") {
@@ -56,7 +56,7 @@ definition {
 	@priority = "4"
 	test BlogEntryDPTOnLandscapePhoneSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Blog Entry") {
@@ -95,7 +95,7 @@ definition {
 	@priority = "4"
 	test BlogEntryDPTOnPortraitPhoneSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Blog Entry") {
@@ -134,7 +134,7 @@ definition {
 	@priority = "4"
 	test BlogEntryDPTOnTabletSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Blog Entry") {
@@ -178,7 +178,7 @@ definition {
 			JSONLayoutpagetemplate.addDisplayPageTemplateEntry(
 				contentType = "Blogs Entry",
 				displayPageTemplateEntryName = "Display Page Template Name",
-				groupName = "Test Site Team Extranet");
+				groupName = "Test Site Team Extranet Name");
 		}
 
 		task ("Add The Blog Entries Collections to the New DPT") {
@@ -232,7 +232,7 @@ definition {
 	test CanSetAHostedVideoURL {
 		task ("Create a new Page by Json") {
 			JSONLayout.addPublicLayout(
-				groupName = "Test Site Team Extranet",
+				groupName = "Test Site Team Extranet Name",
 				layoutName = "Test Page Name",
 				type = "content");
 		}
@@ -240,7 +240,7 @@ definition {
 		task ("Drag and Drop the Video fragment and Set the Hosted URL") {
 			ContentPagesNavigator.openEditContentPage(
 				pageName = "Test Page Name",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 
 			PageEditor.addFragment(
 				collectionName = "Components",
@@ -261,7 +261,7 @@ definition {
 	test CanSetANonHostedVideoURL {
 		task ("Create a new Page by Json") {
 			JSONLayout.addPublicLayout(
-				groupName = "Test Site Team Extranet",
+				groupName = "Test Site Team Extranet Name",
 				layoutName = "Test Page Name",
 				type = "content");
 		}
@@ -269,7 +269,7 @@ definition {
 		task ("Drag and Drop the Video fragment and Set the Hosted URL") {
 			ContentPagesNavigator.openEditContentPage(
 				pageName = "Test Page Name",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 
 			PageEditor.addFragment(
 				collectionName = "Components",
@@ -292,7 +292,7 @@ definition {
 	test CollectionsAreNotCreatedCorrectly {
 		task ("Create a Dynamic Collection") {
 			JSONAssetlist.addDynamicAssetListEntryWithItemType(
-				groupName = "Test Site Team Extranet",
+				groupName = "Test Site Team Extranet Name",
 				itemSubtype = "Entry",
 				itemType = "Web Content Article",
 				title = "Dynamic Collection Test");
@@ -339,7 +339,7 @@ definition {
 		task ("Edit the Collection Page") {
 			ContentPagesNavigator.openEditContentPage(
 				pageName = "Collection Page Name",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 
 			PageEditor.editCollectionDisplay(
 				fragmentName = "Collection Display",
@@ -366,7 +366,7 @@ definition {
 		task ("Open to Edit the Home Page") {
 			ContentPagesNavigator.openEditContentPage(
 				pageName = "Home",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Preview Mode in Desktop") {
@@ -395,7 +395,7 @@ definition {
 		task ("Open to Edit the Home Page") {
 			ContentPagesNavigator.openEditContentPage(
 				pageName = "Home",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Preview Mode in Landscape Phone") {
@@ -424,7 +424,7 @@ definition {
 		task ("Open to Edit the Home Page") {
 			ContentPagesNavigator.openEditContentPage(
 				pageName = "Home",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Preview Mode in Desktop") {
@@ -453,7 +453,7 @@ definition {
 		task ("Open to Edit the Home Page") {
 			ContentPagesNavigator.openEditContentPage(
 				pageName = "Home",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Preview Mode in Tablet") {
@@ -480,7 +480,7 @@ definition {
 	@priority = "4"
 	test JobPositionDPTOnDesktopSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Job Position") {
@@ -519,7 +519,7 @@ definition {
 	@priority = "4"
 	test JobPositionDPTOnLandscapePhoneSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Job Position") {
@@ -558,7 +558,7 @@ definition {
 	@priority = "4"
 	test JobPositionDPTOnPortraitPhoneSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Job Position") {
@@ -597,7 +597,7 @@ definition {
 	@priority = "4"
 	test JobPositionDPTOnTabletSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Job Position") {
@@ -652,7 +652,7 @@ definition {
 	@priority = "4"
 	test TeamMemberDPTOnDesktopSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Team Member") {
@@ -691,7 +691,7 @@ definition {
 	@priority = "4"
 	test TeamMemberDPTOnLandscapePhoneSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Team Member") {
@@ -730,7 +730,7 @@ definition {
 	@priority = "4"
 	test TeamMemberDPTOnPortraitPhoneSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Team Member") {
@@ -769,7 +769,7 @@ definition {
 	@priority = "4"
 	test TeamMemberDPTOnTabletSize {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Display Page Templates and Team Member") {
@@ -809,7 +809,7 @@ definition {
 	test VerifySearchBarEmbeddedInACustomFragment {
 		task ("Add a Fragment Collection and go to Team Extranet Fragments Admin") {
 			JSONFragment.addFragmentCollection(
-				groupName = "Test Site Team Extranet",
+				groupName = "Test Site Team Extranet Name",
 				name = "Collection Name");
 
 			FragmentsAdminNavigator.openFragmentsAdmin(siteURLKey = "test-site-team-extranet");
@@ -832,7 +832,7 @@ definition {
 
 		JSONWebcontent.addWebContent(
 			content = "WC WebContent Content",
-			groupName = "Test Site Team Extranet",
+			groupName = "Test Site Team Extranet Name",
 			title = "WC WebContent Title");
 
 		PagesAdmin.openPagesAdmin(siteURLKey = "test-site-team-extranet");
@@ -852,13 +852,13 @@ definition {
 	@priority = "3"
 	test VerifyTheAllArticlesLinkInBlogEntryLinkToItsPage {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Blog and Open a Blog Entry") {
 			Navigator.gotoSitePage(
 				pageName = "Blog",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 
 			Masterclass.goToLink(
 				key_buttonName = "Read More",
@@ -877,13 +877,13 @@ definition {
 	@priority = "3"
 	test VerifyTheAllArticlesLinkInTeamMemberLinkToItsPage {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Blog and Open a Blog Entry") {
 			Navigator.gotoSitePage(
 				pageName = "Team",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 
 			Click(
 				key_imageName = "member",
@@ -902,13 +902,13 @@ definition {
 	@priority = "3"
 	test VerifyTheAllOpenPositionsLinkRedirectsToItsPage {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Go to Blog and Open a Blog Entry") {
 			Navigator.gotoSitePage(
 				pageName = "Careers",
-				siteName = "Test Site Team Extranet");
+				siteName = "Test Site Team Extranet Name");
 
 			Click(
 				key_entryTitle = "Growth Product Manager",
@@ -927,7 +927,7 @@ definition {
 	@priority = "4"
 	test VerifyTheLinksRedirectsToItsPage {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Click in The 'All blog articles' link and assert it redirects to Blog Page") {
@@ -938,7 +938,7 @@ definition {
 		}
 
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Click in The 'All job positions' link and assert it redirects to Careers Page") {
@@ -949,7 +949,7 @@ definition {
 		}
 
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Click in The 'All team members' link and assert it redirects to Team Page") {
@@ -964,7 +964,7 @@ definition {
 	@priority = "4"
 	test VerifyThePageTitlesRedirectsToItsPage {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Click on the Careers Card Title and Assert it is redirected to Careers Page") {
@@ -978,7 +978,7 @@ definition {
 		}
 
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Click on the Team Card Title and Assert it is redirected to Team Page") {
@@ -992,7 +992,7 @@ definition {
 		}
 
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Click on the Blog Card Title and Assert it is redirected to Blog Page") {
@@ -1010,7 +1010,7 @@ definition {
 	@priority = "4"
 	test VerifyTheViewMoreRedirectsToItsPage {
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Click on 'View more' in Careers card and assert it is redirected to Careers Page") {
@@ -1021,7 +1021,7 @@ definition {
 		}
 
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Click on 'View more' in Team card and assert it is redirected to Team Page") {
@@ -1032,7 +1032,7 @@ definition {
 		}
 
 		task ("Go to Team Extranet Site") {
-			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet");
+			ApplicationsMenu.gotoSite(site = "Test Site Team Extranet Name");
 		}
 
 		task ("Click on 'View more' in Blog card and assert it is redirected to Blog Page") {

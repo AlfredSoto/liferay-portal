@@ -11,6 +11,11 @@
 
 <tbody>
 <tr>
+	<td>ALERT_ERROR</td>
+	<td>//div[contains(text(),'Please enter a unique name.')]</td>
+	<td></td>
+</tr>
+<tr>
 	<td>COLLECTION_DISPLAY_LIST</td>
 	<td>//*[contains(@class,'asset-summary') and contains(.,'${key_title}')]</td>
 	<td></td>
