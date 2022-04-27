@@ -34,6 +34,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-135077. I can create a Virtual Instance with Default Initializer"
+	@ignore = "true"
 	@priority = "5"
 	test AddVirtualInstanceWithDefaultInitializer {
 		property custom.properties = "virtual.hosts.valid.hosts=localhost,127.0.0.1,www.baker.com";
@@ -60,6 +61,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-135077. I can create a New Virtual Instance with the initializer"
+	@ignore = "true"
 	@priority = "5"
 	test AddVirtualInstanceWithInitializer {
 		property custom.properties = "virtual.hosts.valid.hosts=localhost,127.0.0.1,www.able.com";
@@ -89,7 +91,7 @@ definition {
 	@priority = "4"
 	test CannotSelectInitializerWithoutDeployRaylifeAP {
 		property osgi.app.includes = "gogo-shell";
-		property test.name.skip.portal.instance = "LiferayOnline#CannotSelectInitializerWithoutDeployAP";
+		property test.name.skip.portal.instance = "LiferayOnline#CannotSelectInitializerWithoutDeployRaylifeAP";
 
 		task ("Go to Gogo Shell Admin and Stop Raylife Module") {
 			GogoShell.openGogoShellAdmin();
@@ -134,7 +136,7 @@ definition {
 	@priority = "4"
 	test CannotSelectInitializerWithoutDeployRaylifeD2C {
 		property osgi.app.includes = "gogo-shell";
-		property test.name.skip.portal.instance = "LiferayOnline#CannotSelectInitializerWithoutDeployD2C";
+		property test.name.skip.portal.instance = "LiferayOnline#CannotSelectInitializerWithoutDeployRaylifeD2C";
 
 		task ("Go to Gogo Shell Admin and Stop Raylife Module") {
 			GogoShell.openGogoShellAdmin();
@@ -176,6 +178,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143786. Create a Team Extranet Virtual Instance by API"
+	@ignore = "true"
 	@priority = "4"
 	test CreateTeamExtranetVirtualInstanceByAPI {
 		property custom.properties = "virtual.hosts.valid.hosts=localhost,127.0.0.1,www.able.com";
@@ -199,6 +202,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143786. Verify Remote Apps can be created in Liferay Online"
+	@ignore = "true"
 	@priority = "4"
 	test RemoteAppsCanBeCreatedInLiferayOnline {
 		property portal.acceptance = "true";
@@ -222,6 +226,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143786. Verify Remote Apps can be deleted in Liferay Online"
+	@ignore = "true"
 	@priority = "4"
 	test RemoteAppsCanBeDeletedInLiferayOnline {
 		property portal.acceptance = "true";
@@ -246,6 +251,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143786. Verify Remote Apps can be displayed in Liferay Online"
+	@ignore = "true"
 	@priority = "4"
 	test RemoteAppsCanBeDisplayedInLiferayOnline {
 		property portal.acceptance = "true";
@@ -284,6 +290,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-148448. Search bar is available in Team Extranet Virtual instance and it works"
+	@ignore = "true"
 	@priority = "3"
 	test SearchBarWorkingInTeamExtranetVirtualInstanceByAPI {
 		property custom.properties = "virtual.hosts.valid.hosts=localhost,127.0.0.1,www.able.com";
@@ -326,6 +333,7 @@ definition {
 		}
 	}
 
+	@ignore = "true"
 	@priority = "5"
 	test Smoke {
 		property liferay.online.smoke = "true";
@@ -451,6 +459,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143786. Verify Remote Apps presence in Liferay Online"
+	@ignore = "true"
 	@priority = "5"
 	test VerifyRemoteAppsInLiferayOnline {
 		property portal.acceptance = "true";

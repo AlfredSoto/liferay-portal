@@ -41,6 +41,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-142641. Create a Site based on Team-Extranet"
+	@ignore = "true"
 	@priority = "5"
 	test AddTeamExtranetSite {
 		property portal.acceptance = "true";
@@ -57,6 +58,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-148459. Background image changed from the page editor"
+	@ignore = "true"
 	@priority = "3"
 	test BackgroundImageChangedFromPageEditor {
 		task ("Open to Edit the Home Page") {
@@ -83,6 +85,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Blog Entry DPT on Desktop Size"
+	@ignore = "true"
 	@priority = "4"
 	test BlogEntryDPTOnDesktopSize {
 		task ("Go to Team Extranet Site") {
@@ -122,6 +125,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Blog Entry DPT on Landscape Phone Size"
+	@ignore = "true"
 	@priority = "4"
 	test BlogEntryDPTOnLandscapePhoneSize {
 		task ("Go to Team Extranet Site") {
@@ -161,6 +165,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Blog Entry DPT on Portrait Phone Size"
+	@ignore = "true"
 	@priority = "4"
 	test BlogEntryDPTOnPortraitPhoneSize {
 		task ("Go to Team Extranet Site") {
@@ -200,6 +205,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Blog Entry DPT on Tablet Size"
+	@ignore = "true"
 	@priority = "4"
 	test BlogEntryDPTOnTabletSize {
 		task ("Go to Team Extranet Site") {
@@ -239,6 +245,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143304. Can add a Related Item Collection to a Display Page Template"
+	@ignore = "true"
 	@priority = "4"
 	test CanAddAnItemCollectionToADPT {
 		task ("Add a New Display Page Template to Team Extranet Site") {
@@ -297,6 +304,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144161. Can do a search in the Search bar in Mobile Size"
+	@ignore = "true"
 	@priority = "3"
 	test CanDoASearchInMobileSize {
 		task ("Go to Blog Page") {
@@ -321,6 +329,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144161. Can do a search in the Search bar"
+	@ignore = "true"
 	@priority = "3"
 	test CanDoASearchInTeamExtranetSearchBar {
 		task ("Go to Team Extranet Site") {
@@ -337,6 +346,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144156. Can Set a Hosted Video URL on a Team Extranet Fragment Video"
+	@ignore = "true"
 	@priority = "4"
 	test CanSetAHostedVideoURL {
 		task ("Create a new Page by Json") {
@@ -366,6 +376,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144156. Can Set a Non-Hosted Video URL on a Team Extranet Fragment Video"
+	@ignore = "true"
 	@priority = "4"
 	test CanSetANonHostedVideoURL {
 		task ("Create a new Page by Json") {
@@ -397,6 +408,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-146967. Collections are not created correctly for extranet site initializer"
+	@ignore = "true"
 	@priority = "4"
 	test CollectionsAreNotCreatedCorrectly {
 		task ("Create a Dynamic Collection") {
@@ -470,6 +482,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Home page on Desktop Size"
+	@ignore = "true"
 	@priority = "4"
 	test HomePageOnDesktopSize {
 		task ("Open to Edit the Home Page") {
@@ -499,6 +512,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Home page on Landscape Phone Size"
+	@ignore = "true"
 	@priority = "4"
 	test HomePageOnLandscapePhoneSize {
 		task ("Open to Edit the Home Page") {
@@ -528,6 +542,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Home page on Portrait Phone Size"
+	@ignore = "true"
 	@priority = "4"
 	test HomePageOnPortraitPhoneSize {
 		task ("Open to Edit the Home Page") {
@@ -557,6 +572,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Home page on Tablet Size"
+	@ignore = "true"
 	@priority = "4"
 	test HomePageOnTabletSize {
 		task ("Open to Edit the Home Page") {
@@ -586,6 +602,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Job Position DPT on Desktop Size"
+	@ignore = "true"
 	@priority = "4"
 	test JobPositionDPTOnDesktopSize {
 		task ("Go to Team Extranet Site") {
@@ -625,6 +642,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Job Position DPT on Landscape Phone Size"
+	@ignore = "true"
 	@priority = "4"
 	test JobPositionDPTOnLandscapePhoneSize {
 		task ("Go to Team Extranet Site") {
@@ -664,6 +682,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Job Position DPT on Portrait Phone Size"
+	@ignore = "true"
 	@priority = "4"
 	test JobPositionDPTOnPortraitPhoneSize {
 		task ("Go to Team Extranet Site") {
@@ -703,6 +722,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Job Position DPT on Tablet Size"
+	@ignore = "true"
 	@priority = "4"
 	test JobPositionDPTOnTabletSize {
 		task ("Go to Team Extranet Site") {
@@ -742,6 +762,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-142641. Verify the Stylebook One is marked as default and includes a thumbnail"
+	@ignore = "true"
 	@priority = "4"
 	test StylebookOneIsDefaultAndIncludesAThumbnail {
 		task ("Go to Style Books and Assert the Stylebook One Card") {
@@ -758,6 +779,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Team Member DPT on Desktop Size"
+	@ignore = "true"
 	@priority = "4"
 	test TeamMemberDPTOnDesktopSize {
 		task ("Go to Team Extranet Site") {
@@ -797,6 +819,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Team Member DPT on Landscape Phone Size"
+	@ignore = "true"
 	@priority = "4"
 	test TeamMemberDPTOnLandscapePhoneSize {
 		task ("Go to Team Extranet Site") {
@@ -836,6 +859,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Team Member DPT on Portrait Phone Size"
+	@ignore = "true"
 	@priority = "4"
 	test TeamMemberDPTOnPortraitPhoneSize {
 		task ("Go to Team Extranet Site") {
@@ -875,6 +899,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144166. Verify the Team Member DPT on Tablet Size"
+	@ignore = "true"
 	@priority = "4"
 	test TeamMemberDPTOnTabletSize {
 		task ("Go to Team Extranet Site") {
@@ -914,6 +939,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144174. Verify the Team Extranet Fragment Components Collection"
+	@ignore = "true"
 	@priority = "4"
 	test VerifyFragmentComponentsCollection {
 		task ("Go to Team Extranet Fragments Collections") {
@@ -932,6 +958,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144174. Verify the Team Extranet Fragment Compositions Collection"
+	@ignore = "true"
 	@priority = "4"
 	test VerifyFragmentCompositionsCollection {
 		task ("Go to Team Extranet Fragments Collections") {
@@ -950,6 +977,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144835. Verify the search Bar Widget can be embedded in a Custom Fragment"
+	@ignore = "true"
 	@priority = "3"
 	test VerifySearchBarEmbeddedInACustomFragment {
 		task ("Add a Fragment Collection and go to Team Extranet Fragments Admin") {
@@ -994,6 +1022,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-144161. Verify the Search Bar on Team Extranet Pages"
+	@ignore = "true"
 	@priority = "4"
 	test VerifySearchBarOnPages {
 		task ("Go to Team Extranet Site Pages and Assert the Search Bar presence") {
@@ -1010,6 +1039,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143303. Verify the 'All articles' in Blog Entry link to Blog page"
+	@ignore = "true"
 	@priority = "3"
 	test VerifyTheAllArticlesLinkInBlogEntryLinkToItsPage {
 		task ("Go to Team Extranet Site") {
@@ -1035,6 +1065,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143303. Verify the 'All articles' in Team Member Page link to Blog Page"
+	@ignore = "true"
 	@priority = "3"
 	test VerifyTheAllArticlesLinkInTeamMemberLinkToItsPage {
 		task ("Go to Team Extranet Site") {
@@ -1060,6 +1091,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143303. Verify the 'All open positions' link to Careers page"
+	@ignore = "true"
 	@priority = "3"
 	test VerifyTheAllOpenPositionsLinkRedirectsToItsPage {
 		task ("Go to Team Extranet Site") {
@@ -1085,6 +1117,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-146737. Verify the 'Go to Home Page' button in 404 Page redirects to the Home Page"
+	@ignore = "true"
 	@priority = "3"
 	test VerifyTheErrorPageButtonGoToHomePage {
 		task ("Go to Error Page in Team Extranet Site") {
@@ -1108,6 +1141,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-146737. Verify the Error Page can be displayed"
+	@ignore = "true"
 	@priority = "3"
 	test VerifyTheErrorPageCanBeDisplayed {
 		task ("Go to Error Page in Team Extranet Site") {
@@ -1126,6 +1160,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143303. Verify all the links present in the Home Page redirect to their respective pages"
+	@ignore = "true"
 	@priority = "4"
 	test VerifyTheLinksRedirectsToItsPage {
 		task ("Go to Team Extranet Site") {
@@ -1163,6 +1198,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143303. Verify the Page Titles redirect to their respective pages"
+	@ignore = "true"
 	@priority = "4"
 	test VerifyThePageTitlesRedirectsToItsPage {
 		task ("Go to Team Extranet Site") {
@@ -1209,6 +1245,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-143303. Verify the 'View More' links redirect to their respective pages"
+	@ignore = "true"
 	@priority = "4"
 	test VerifyTheViewMoreRedirectsToItsPage {
 		task ("Go to Team Extranet Site") {
@@ -1246,6 +1283,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-142641. View the Team Extranet Categories"
+	@ignore = "true"
 	@priority = "3"
 	test ViewTeamExtranetCategories {
 		task ("Go to Team Extranet Categories") {
@@ -1274,6 +1312,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-142641. View the Team Extranet Collections"
+	@ignore = "true"
 	@priority = "3"
 	test ViewTeamExtranetCollections {
 		task ("Go to Team Extranet Collections") {
@@ -1290,6 +1329,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-142641. View the Team Extranet Documents and Media"
+	@ignore = "true"
 	@priority = "4"
 	test ViewTeamExtranetDocumentsAndMedia {
 		property portal.acceptance = "true";
@@ -1310,6 +1350,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-142641. View the Team Extranet Fragments"
+	@ignore = "true"
 	@priority = "4"
 	test ViewTeamExtranetFragments {
 		property portal.acceptance = "true";
@@ -1328,6 +1369,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-142641. View the Team Extranet Pages"
+	@ignore = "true"
 	@priority = "4"
 	test ViewTeamExtranetPages {
 		property portal.acceptance = "true";
@@ -1346,6 +1388,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-142641. View the Team Extranet Page Templates"
+	@ignore = "true"
 	@priority = "4"
 	test ViewTeamExtranetPageTemplates {
 		property portal.acceptance = "true";
@@ -1372,6 +1415,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-142641. View the Team Extranet Web Content"
+	@ignore = "true"
 	@priority = "4"
 	test ViewTeamExtranetWebContent {
 		property portal.acceptance = "true";

@@ -32,6 +32,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-137508. Create a Site with the Masterclass Site initializer"
+	@ignore = "true"
 	@priority = "5"
 	test AddMasterclassSite {
 		property portal.acceptance = "true";
@@ -49,6 +50,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141573. Apply the Masterclass Modern Style Book to home pages"
+	@ignore = "true"
 	@priority = "4"
 	test ApplyMasterclassModernStyleBook {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -76,6 +78,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Border fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassBorder {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -103,6 +106,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass button fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassButton {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -130,6 +134,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Classroom Header fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassClassroomHeader {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -157,6 +162,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Container fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassContainer {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -184,6 +190,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Cookie Banner fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassCookieBanner {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -211,6 +218,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Footer fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassFooter {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -238,6 +246,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Heading fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassHeading {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -265,6 +274,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Hero fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassHero {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -292,6 +302,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Image fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassImage {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -319,6 +330,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass link fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassLink {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -346,6 +358,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Map Video fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassMapVideo {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -373,6 +386,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Navbar fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassNavbar {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -400,6 +414,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Private Header fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassPrivateHeader {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -427,6 +442,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Sign In fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassSignIn {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -454,6 +470,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Subscribe Form fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassSubscribeForm {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -481,6 +498,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Tabs fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassTabs {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -508,6 +526,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Text Block fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassTextBlock {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -535,6 +554,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Video fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassVideo {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -568,6 +588,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-136183. Can use a Masterclass Video Player fragment"
+	@ignore = "true"
 	@priority = "3"
 	test CanUseMasterclassVideoPlayer {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -595,6 +616,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141370. Can change the Number of Blogs in the List at Display Page Template of Blogs"
+	@ignore = "true"
 	@priority = "4"
 	test ChangetheNumberofBlogsinBlogsListatDPT {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -634,6 +656,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141750. Create Account in Masterclass"
+	@ignore = "true"
 	@priority = "4"
 	test CreateAccountInMasterclass {
 		property custom.properties = "jsonws.web.service.paths.excludes=";
@@ -690,6 +713,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141750. Forgot Password in Masterclass"
+	@ignore = "true"
 	@priority = "4"
 	test ForgotPasswordInMasterclass {
 		property portal.acceptance = "true";
@@ -737,6 +761,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Apply Page in Desktop size"
+	@ignore = "true"
 	@priority = "3"
 	test MasterclassApplyinDesktopSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -764,6 +789,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Apply Page in Mobile size"
+	@ignore = "true"
 	@priority = "3"
 	test MasterclassApplyinMobileSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -791,6 +817,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Apply Page in Tablet size"
+	@ignore = "true"
 	@priority = "3"
 	test MasterclassApplyinTabletSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -818,6 +845,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Blog Page in Desktop size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassBloginDesktopSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -845,6 +873,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Blog Page in Mobile size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassBloginMobileSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -872,6 +901,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Blog Page in Tablet size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassBloginTabletSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -899,6 +929,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Home Page in Desktop size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassHomeinDesktopSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -926,6 +957,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Home Page in Mobile size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassHomeinMobileSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -953,6 +985,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Home Page in Tablet size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassHomeinTabletSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -980,6 +1013,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141572. 'Masterclass Modern' starts checked as the default Style Book in Masterclass Site"
+	@ignore = "true"
 	@priority = "2"
 	test MasterclassModernDontStartAsDefaultStylebook {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -998,6 +1032,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass My Learning Page in Desktop size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassMyLearninginDesktopSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1025,6 +1060,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass My Learning Page in Mobile size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassMyLearninginMobileSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1052,6 +1088,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass My Learning Page in Tablet size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassMyLearninginTabletSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1079,6 +1116,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141750. Masterclass Sign In"
+	@ignore = "true"
 	@priority = "5"
 	test MasterclassSignIn {
 		property portal.acceptance = "true";
@@ -1108,6 +1146,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Sign In Page in Desktop size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassSignIninDesktopSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1135,6 +1174,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Sign In Page in Mobile size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassSignIninMobileSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1162,6 +1202,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140611. Masterclass Sign In Page in Tablet size"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassSignIninTabletSize {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1189,6 +1230,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141750. Masterclass Sign Out"
+	@ignore = "true"
 	@priority = "4"
 	test MasterclassSignOut {
 		property portal.acceptance = "true";
@@ -1208,6 +1250,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141768. View the READ MORE links of the three courses redirect to the course display page"
+	@ignore = "true"
 	@priority = "4"
 	test ReadMoreLinksRedirectToCourseDisplayPage {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1265,6 +1308,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140613. View if the Student can have permissions set"
+	@ignore = "true"
 	@priority = "4"
 	test SetStudentPermission {
 		property portal.acceptance = "true";
@@ -1324,6 +1368,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140613. View if the Teacher can have permissions set"
+	@ignore = "true"
 	@priority = "4"
 	test SetTeacherPermission {
 		property portal.acceptance = "true";
@@ -1383,6 +1428,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-148457. Masterclass create account and forgot password are not displayed in sign in page"
+	@ignore = "true"
 	@priority = "3"
 	test SignInPageDoesNotDisplayCreateAndForgotPage {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1439,6 +1485,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141768. View the three available courses in Home content page"
+	@ignore = "true"
 	@priority = "4"
 	test ViewAvailableCoursesinHomeCP {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1473,6 +1520,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141370. View a Blog Collection in Display Page Template of Blogs"
+	@ignore = "true"
 	@priority = "4"
 	test ViewBlogCollectioninDPTofBlogs {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1507,6 +1555,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141370. View a List of Blogs in the Blog Detail View"
+	@ignore = "true"
 	@priority = "4"
 	test ViewBlogListinBlogDetailView {
 		property portal.acceptance = "true";
@@ -1532,6 +1581,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141768. View list to the three available courses pages"
+	@ignore = "true"
 	@priority = "4"
 	test ViewListofAvailableCoursesPage {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1572,6 +1622,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-137508. View the Masterclass Categories"
+	@ignore = "true"
 	@priority = "3"
 	test ViewMasterclassCategories {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1590,6 +1641,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-137508. View the Masterclass Stylebook Classic Theme"
+	@ignore = "true"
 	@priority = "5"
 	test ViewMasterclassClassicStylebook {
 		property portal.acceptance = "true";
@@ -1607,6 +1659,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-137508. View the Masterclass Collections"
+	@ignore = "true"
 	@priority = "4"
 	test ViewMasterclassCollections {
 		property portal.acceptance = "true";
@@ -1630,6 +1683,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-137508. View the Masterclass Documents"
+	@ignore = "true"
 	@priority = "4"
 	test ViewMasterclassDocuments {
 		property portal.acceptance = "true";
@@ -1651,6 +1705,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-137508. View the Masterclass Fragments Collections"
+	@ignore = "true"
 	@priority = "3"
 	test ViewMasterclassFragmentsCollections {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1669,6 +1724,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141573. View the Masterclass Modern Style Book in content pages"
+	@ignore = "true"
 	@priority = "3"
 	test ViewMasterclassModernStyleBookonPage {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1705,6 +1761,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-137508. View the Masterclass Pages"
+	@ignore = "true"
 	@priority = "4"
 	test ViewMasterclassPages {
 		property portal.acceptance = "true";
@@ -1724,6 +1781,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-137508. View the Masterclass Page Templates"
+	@ignore = "true"
 	@priority = "4"
 	test ViewMasterclassPageTemplates {
 		property portal.acceptance = "true";
@@ -1751,6 +1809,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-137508. View the Masterclass Web Content"
+	@ignore = "true"
 	@priority = "4"
 	test ViewMasterclassWebContent {
 		property portal.acceptance = "true";
@@ -1832,6 +1891,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141768. View the names of the three courses redirect to the course display page"
+	@ignore = "true"
 	@priority = "4"
 	test ViewNameofCoursesRedirectToCourseDisplayPage {
 		property release.feature.flags.disable.DISABLE_PRIVATE_LAYOUTS = "true";
@@ -1886,6 +1946,7 @@ definition {
 	}
 
 	@description = "This is a use case for LPS-140253. View no private page in style book on Masterclass site."
+	@ignore = "true"
 	@priority = "4"
 	test ViewNoPrivatePageInStyleBooksOnMasterclassSite {
 		task ("Go to style books") {
@@ -1914,6 +1975,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-141750. View the Sign In page elements"
+	@ignore = "true"
 	@priority = "5"
 	test ViewSignInPageElements {
 		property portal.acceptance = "true";
@@ -1955,6 +2017,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140613. View the Student and Teacher are present in Site Roles"
+	@ignore = "true"
 	@priority = "4"
 	test ViewStudentandTeacheronSiteRoles {
 		property portal.acceptance = "true";
@@ -1980,6 +2043,7 @@ definition {
 	}
 
 	@description = "This is a test for LPS-140613. View permissions for Student and Teacher"
+	@ignore = "true"
 	@priority = "4"
 	test ViewStudentandTeacherPermissions {
 		property portal.acceptance = "true";
