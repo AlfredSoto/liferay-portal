@@ -437,4 +437,14 @@ definition {
 			requiredFieldValidation = "true");
 	}
 
+	@description = "Verify if user is required to define a description for an uploaded image"
+	@priority = "3"
+	test ZZ {
+		DMNavigator.openDocumentsAndMediaAdmin(siteURLKey = "guest");
+
+		AssertElementPresent(
+			key_dmDocumentTitle = "tree.png",
+			locator1 = "DocumentsAndMedia#ICON_DOCUMENT_CHECKBOX");
+	}
+
 }
