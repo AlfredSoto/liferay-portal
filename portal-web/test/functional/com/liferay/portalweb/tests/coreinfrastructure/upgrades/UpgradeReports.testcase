@@ -115,7 +115,7 @@ definition {
 
 		var tempDir = PropsUtil.get("liferay.home.dir.name");
 		var logString = "No errors thrown during upgrade";
-		var fileContent = FileUtil.read("${tempDir}/tools/portal-tools-db-upgrade-client/reports/upgrade_report.info");
+		var fileContent = FileUtil.read("${tempDir}/tools/portal-tools-db-upgrade-client/portal-upgrade-ext.properties");
 		echo("${fileContent}");
 		task ("Read the content. No errors expected") {
 			if (!(contains("${fileContent}", "${logString}"))) {
