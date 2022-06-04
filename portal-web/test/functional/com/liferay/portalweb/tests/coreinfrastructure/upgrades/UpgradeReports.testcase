@@ -27,14 +27,15 @@ definition {
 	tearDown {
 		var testPortalInstance = PropsUtil.get("test.portal.instance");
 
-		//if ("${testPortalInstance}" == "true") {
-		//	PortalInstances.tearDownCP();
-		//}
-		//else {
-		//	if ("${tempFileExists}" == "true") {
-		//	//FileUtil.delete("${tempDir}/tools/portal-tools-db-upgrade-client/reports/upgrade_report.info");
-		//}
-		//}
+		if ("${testPortalInstance}" == "true") {
+			PortalInstances.tearDownCP();
+		}
+		else {
+			if ("${tempFileExists}" == "true") {
+			//FileUtil.delete("${tempDir}/tools/portal-tools-db-upgrade-client/reports/upgrade_report.info");
+			echo("Debugg File doesnt exist");
+			}
+		}
 
 	}
 
@@ -108,6 +109,7 @@ definition {
 		property data.archive.type = "data-archive-portal-partition";
 		property portal.upgrades = "true";
 		property portal.version = "7.4.1";
+		property test.name.skip.portal.instance = "UpgradeReports#ZZ";
 
 		Upgrade.viewUpgradeDBPartition();
 
